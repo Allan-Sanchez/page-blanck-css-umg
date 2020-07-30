@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: #eef3f1;
+}
+
+header{
+    width: 100%;
+    /* margin: 0 auto; */
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    /* background: red; */
+}
+.divider{
+    width: 100%;
+    height: 2px;
+    background: #A0AEC0;
+}
+
+.container-img {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 60px;
+}
+.container-img h1{
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    color: #2A4365;
+}
+.container-img h1:hover{
+    cursor: pointer;
+}
+
+nav{
+    width: 30%;
+}
+
+nav ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li{
+    padding: 1rem;
+}
+nav ul li .active{
+    padding: 1rem;
+    border-radius: 20px;
+    color: #44337A;
+    background: #BEE3F8;
+}
+
+nav ul li:hover{
+    padding: 1rem;
+    border-radius: 20px;
+    color: #44337A;
+    background: #BEE3F8;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #2A4365;
+
+}
+main{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+main .content{
+    margin-top: 50px;
+    width: 75%;
+    color: #1A202C;
+}
+
+main .content h3{
+    padding: 1rem;
+    color: #2B6CB0;
+    text-align: justify;
+    font-weight: bold;
+}
+
+main .content p{
+    padding: 1rem;
+    text-align: justify;
+}
+
+main .ads{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    width: 25%;
+    background: #F7FAFC;
+    box-shadow: 1px 1px 20px #E2E8F0;
+}
+
+main .ads h3{
+    width: 100%;
+    text-align: center;
+    color: #2B6CB0;
+    font-size: 40px;
+}
+
+main .ads ul{
+    padding-top: 3rem;
+    list-style: none;
+}
+
+main .ads ul li a{
+    padding: 1rem;
+    font-size: 20px;
+    line-height: 2rem;
+    color: #2A4365;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    color: #2A4365;
+}
+footer p {
+    padding: 1rem;
+}
+
+#customers {
+    margin-top: 40px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  table tr td a {
+      text-decoration: none;
+      color: red;
+  }
